@@ -13,7 +13,7 @@ jobs:
             owner: NamrataJha
             repo: actions-test-3
             package-names: actions-test, actions-test-3
-            min-versions-to-keep: 5
+            min-versions-to-keep: 2
             token: ${{ secrets.PAT }}
 
  
