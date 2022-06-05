@@ -8,11 +8,11 @@ jobs:
       
     steps:
       - name: Delete package
-        uses: OmarCastro/delete-package-versions@fa40cba2e71582b7686da5dffb44137dfb7c0965
+        uses: OmarCastro/delete-package-versions@d2531724efdbb55705ba2050c9460c2e87127a0f
         with: 
             owner: NamrataJha
             repo: test-pkg-1
-            package-names: actions-test-1
+            package-names: actions-test-1, actions-test-2
             num-old-versions-to-delete: 100
 
  
