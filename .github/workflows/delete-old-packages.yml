@@ -12,8 +12,9 @@ jobs:
         with: 
             owner: NamrataJha
             repo: test-pkg-1
-            package-names: "*"
-            delete-only-pre-release-versions: "true"
+            package-names: '^/[a-z]+-test-[0-9]+/gm'
+            min-versions-to-keep: 100
+            ignore-versions: '^(0|[1-9]\\d*)\\.0\\.0$'
 
  
 
