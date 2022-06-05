@@ -12,7 +12,7 @@ jobs:
         with: 
             owner: NamrataJha
             repo: test-pkg-1
-            package-names: 'actions-test-1, actions-test-2'
+            package-names: actions-test-1
             min-versions-to-keep: 50
             ignore-versions: '^(0|[1-9]\\d*)\\.0\\.0$'
             
