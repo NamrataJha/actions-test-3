@@ -12,7 +12,7 @@ jobs:
         with: 
             owner: NamrataJha
             repo: test-pkg-1
-            package-names: '*'
+            package-names: '^([a-z]+)(-test-)(\\d+)$'
             min-versions-to-keep: 90
             
 
