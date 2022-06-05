@@ -12,7 +12,7 @@ jobs:
         with: 
             owner: NamrataJha
             repo: test-pkg-1
-            package-names: actions-test-*
+            package-names: '*'
             min-versions-to-keep: 90
             
 
