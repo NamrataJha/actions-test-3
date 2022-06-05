@@ -12,7 +12,7 @@ jobs:
         with: 
             owner: NamrataJha
             repo: test-pkg-1
-            package-names: '^/[a-z]+-test-[0-9]+/gm'
+            package-names: '^/[a-z]+-test-[0-9]'
             min-versions-to-keep: 100
             ignore-versions: '^(0|[1-9]\\d*)\\.0\\.0$'
 
