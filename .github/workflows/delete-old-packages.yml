@@ -12,8 +12,8 @@ jobs:
         with: 
             owner: NamrataJha
             repo: test-pkg-1
-            package-names: actions-test-1, actions-test-2
-            num-old-versions-to-delete: 100
+            package-names: actions-test-1, actions-test-2, test-pkg-1
+            min-versions-to-keep: 100
 
  
 
